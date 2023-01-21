@@ -2,7 +2,7 @@ from tkinter import *
 import random
 
 #game setting
-game_width = 700
+GAME_WIDTH = 700
 
 GAME_HEIGHT =700
 
