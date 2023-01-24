@@ -16,7 +16,7 @@ maroon = (128, 0, 0)
 teal = ( 0, 128, 128)
 
 happy_face = pygame.image.load('happy.jpeg')
-happy_face_rect = happy_face.get_rect(center= (0, 0))
+happy_face_rect = happy_face.get_rect(topleft=(0, 0))
 
 #the length of each side of the window
 displayed_window_width = 600
@@ -69,7 +69,6 @@ def gameLoop(): #main game
             message("You Lost! Press C-Play Again or Q-Quit", red)
             Your_score(Length_of_snake - 1)
             pygame.display.update()
-            
 
             for event in pygame.event.get():
                 if event.type == pygame.KEYDOWN:
@@ -79,8 +78,9 @@ def gameLoop(): #main game
                     if event.key == pygame.K_c:
                         gameLoop()
                     
-                    
+        
 
+    while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 game_over = True
@@ -97,6 +97,9 @@ def gameLoop(): #main game
                 elif event.key == pygame.K_DOWN:
                     y1_change = snake_head
                     x1_change = 0
+
+        happy_face.blit(happy_face, happy_face_rect)
+        pygame.display.update()
 
         if x1 >= displayed_window_width or x1 < 0 or y1 >= displayed_window_height or y1 < 0:
             game_close = True
