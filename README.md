@@ -15,5 +15,11 @@ the worm so that it eats the apple. Each time the worm eats an apple, the worm g
 one segment and a new apply randomly appears on the screen. The game is over if the worm
 crashes into itself or the edges of the screen.***
 
+
+
+https://user-images.githubusercontent.com/115734375/214470735-41d870a8-957c-4bbd-8ec1-d17a1e4b6b3c.mp4
+
+
+
 ## **Installation**
  Clone the repository and open it in any code editor. 
