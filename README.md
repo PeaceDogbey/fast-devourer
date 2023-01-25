@@ -16,7 +16,7 @@ one segment and a new apply randomly appears on the screen. The game is over if 
 crashes into itself or the edges of the screen.***
 
 
-
+#***IM SO HUNGRY***
 https://user-images.githubusercontent.com/115734375/214470735-41d870a8-957c-4bbd-8ec1-d17a1e4b6b3c.mp4
 
 
