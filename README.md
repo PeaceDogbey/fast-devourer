@@ -1,7 +1,7 @@
 # fast-Devourer
 #![Alt text](happy.jpeg) 
 
-*Fast-Devourer is a game developed using Python with the Pygame framework.*
+## *Fast-Devourer is a game developed using Python with the Pygame framework.*
 
 
 
