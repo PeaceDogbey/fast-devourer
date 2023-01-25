@@ -1,5 +1,5 @@
 # fast-Devourer
-#![Alt text](happy.jpeg) 
+#![Alt text](happy.jpeg)<img width = 200, img height = 200> 
 
 ## *Fast-Devourer is a game developed using Python with the Pygame framework.*
 
